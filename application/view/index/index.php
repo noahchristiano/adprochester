@@ -1,0 +1,1 @@
+<img src="<?php echo Config::get('URL'); ?>images/brothers.jpg" alt="Brothers" class="background-image">

@@ -1,0 +1,11 @@
+# Passwords #
+#############
+application/config/config.development.php
+
+# Dependencies #
+################
+vendor/
+
+# OSX #
+#######
+.DS_STORE

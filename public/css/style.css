@@ -1,0 +1,175 @@
+body {
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0px;
+}
+.container {
+    margin-top: 51px;
+    width: 100%;
+}
+
+/* navigation */
+.navigation {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 1px solid #000;
+    background-color: #fff;
+}
+.tab {
+    list-style: none;
+}
+.tab.left {
+    float: left;
+    padding-left: 15px;
+}
+.tab.left li {
+    float: left;
+    margin-right: 15px;
+}
+.tab.right {
+    float: right;
+    padding-right: 15px;
+}
+.tab.right li {
+    float: right;
+    margin-left: 5px;
+}
+.tab li a {
+    display: block;
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 2px solid #0f3d0f;
+    background: #0f3d0f;
+    padding: 10px 15px;
+}
+.tab li a:hover {
+    background: #fff;
+    color: #0f3d0f;
+}
+.tab > li.active a {
+    background: #fff;
+    color: #0f3d0f;
+}
+
+/* home page */
+.background-image {
+    width: 100%;
+    height: auto
+}
+
+/* feedback boxes */
+.feedback {
+    margin-top: 64px;
+    padding: 30px;
+    margin-bottom: 10px;
+}
+.feedback.success {
+    color: #558f2d;
+    background-color: #ddf2c0;
+}
+.feedback.error {
+    color: #ff7272;
+    background-color: #ffe5e5;
+}
+.feedback.info {
+    color: #00529B;
+    background-color: #BDE5F8;
+}
+
+/* input pages */
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    text-transform: uppercase;
+}
+.box h1 {
+    text-align: center;
+    color: #0f3d0f;
+}
+.link,
+.box input[type="text"],
+.box input[type="password"],
+.box input[type="submit"] {
+    background: #fff;
+    color: #0f3d0f;
+    border: 1px solid #0f3d0f;
+    padding: 15px 20px;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 500px;
+    box-sizing: border-box; 
+}
+.box input[type="submit"] {
+    text-transform: uppercase;
+}
+.box input[type="submit"]:hover,
+.box .link:hover {
+    color: #fff;
+    border-color: #0f3d0f;
+    background-color: #0f3d0f;
+    cursor: pointer;
+}
+.box .remember-me {
+    float: left;
+    margin-bottom: 6px;
+}
+.box .remember-me:hover {
+    cursor: pointer;
+}
+.box .link-forgot-my-password {
+    float: right;
+    margin-bottom: 6px;
+}
+.box a {
+    color: #0f3d0f;
+    text-decoration: none;
+}
+.box ::-webkit-input-placeholder { color: #0f3d0f; opacity: 0.5; }
+.box ::-moz-placeholder { color: #0f3d0f; opacity: 0.5; }
+.box :-ms-input-placeholder { color: #0f3d0f; opacity: 0.5; }
+.box input:-moz-placeholder { color: #0f3d0f; opacity: 0.5; }
+
+/* my account */
+.link {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.register-box {
+    display: table-cell;
+    color: #fff;
+    background-color: #252525;
+    padding: 20px 50px 45px 50px;
+    width: 49%;
+    box-sizing: border-box;
+    font-weight: 400;
+    margin: 0;
+    text-transform: uppercase;
+}
+.register-box h2 {
+    color: #fff;
+}
+.register-box a {
+    width: 100%;
+    display: block;
+    box-sizing: border-box; /* modern way to say width:100% without padding */
+    background-color: transparent;
+    border: 2px solid #fff;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+}
+.register-box a:hover {
+    background-color: #ffffff;
+    color: #252525;
+}
